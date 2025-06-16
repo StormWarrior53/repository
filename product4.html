@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Call Saul – Статичен Магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <header>
+        <h1>Better Call Saul</h1>
+        <nav><a href="index.html">Обратно към магазина</a></nav>
+    </header>
+    <main>
+        <section class="product-detail">
+            <img src="images/Better Call Saul.jpg" alt="Better Call Saul"> 
+            <h2>Better Call Saul</h2>
+            <p><strong>Кратко описание:</strong> Гледайте преобразяването на Джими МакГил от провалил се адвокат в Сол Гудман, най-добрия приятел на престъпния свят и най-лошия за всеки около него. Само за 119,99лв.</p>
+            <p><strong>Пълно описание:</strong> „Better Call Saul“ е американски драматичен сериал,
+                 който започва на 8 февруари 2015 г. По идея на Винс Гилиган и Питър Гулд, 
+                 той е едновременно прелюдия, спиноф и продължение на „Breaking Bad“, създаден от Гилиган. Действието се развива през 2002 г.,
+                  шест години преди появата на Сол във „Breaking Bad“, но също така са показани и събития, развиващи се и след тези в оригиналния сериал.</p>
+            <p><strong>Цена:</strong> 110 лв.</p>
+
+            <section class="purchase-form">
+                <h3>Закупи продукта</h3>
+                <form>
+                    <label for="name">Име:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="address">Адрес:</label><br>
+                    <input type="text" id="address" name="address"><br>
+                    <button type="submit">Изпрати</button>
+                </form>
+            </section>
+
+            <section class="reviews">
+                <div class="reviews">
+                <h2>Потребителски ревюта</h2>
+                    <div id="review-list">
+                        <div class="review">Хауард не направи нищо грешно! Освен може би отношението му към Ким.</div>
+                        <div class="review">Не знам дали повече обичам или мразя Чък.</div>
+                        <div class="review">ЛАЛО!!!</div>
+                    </div>
+
+                    <form id="review-form">
+                        <label for="review-text">Добави ревю:</label>
+                            <textarea id="review-text" required></textarea>
+                             <button type="submit">Изпрати</button>
+                    </form>
+                    </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Статичен Магазин</p>
+    </footer>
+</body>
+</html>

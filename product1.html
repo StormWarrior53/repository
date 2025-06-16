@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad – Статичен Магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <header>
+        <h1>Breaking Bad</h1>
+        <nav><a href="index.html">Обратно към магазина</a></nav>
+    </header>
+    <main>
+        <section class="product-detail">
+            <img src="images/Breaking Bad.jpg" alt="Breaking Bad"> 
+            <h2>Breaking Bad</h2>
+            <p><strong>Кратко описание:</strong> 5-сезонната драма разглеждаща превръщането на най-преквалифицирания учител по Химия в наркобарон.</p>
+            <p><strong>Пълно описание:</strong> Криминалният драма сериал "Breaking Bad" спечелила множество награди е създадена от Винс Гилиган и в нея участват Браян Кранстон и Арън Пол като Уолтър Уайт и Джеси Пинкман.
+                 Уолтър е учител по Химия, а Джеси е негов бивш ученик. След диагноза на белодробен рак Уолтър разбира че не му остава много време и измисля план чрез който да използва годините си опит като химик да създава изключително качествени наркотици,
+                които Джеси да продаде и да събере достатъчно пари за семейството си. Така Уолтър започва трансформацията си в известния наркобарон Хайзенбърг.</p>
+            <p><strong>Цена:</strong> 110 лв.</p>
+
+            <section class="purchase-form">
+                <h3>Закупи продукта</h3>
+                <form>
+                    <label for="name">Име:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="address">Адрес:</label><br>
+                    <input type="text" id="address" name="address"><br>
+                    <button type="submit">Изпрати</button>
+                </form>
+            </section>
+
+            <section class="reviews">
+                <div class="reviews">
+                <h2>Потребителски ревюта</h2>
+                    <div id="review-list">
+                        <div class="review">Браво, Винс!</div>
+                        <div class="review">Уолтър винаги е бил зъл, просто е нямал мотивът да го покаже.</div>
+                    </div>
+
+                    <form id="review-form">
+                        <label for="review-text">Добави ревю:</label>
+                            <textarea id="review-text" required></textarea>
+                             <button type="submit">Изпрати</button>
+                    </form>
+                    </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Статичен Магазин</p>
+    </footer>
+</body>
+</html>

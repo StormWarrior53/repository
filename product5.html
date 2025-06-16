@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends – Статичен Магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <header>
+        <h1>Friends</h1>
+        <nav><a href="index.html">Обратно към магазина</a></nav>
+    </header>
+    <main>
+        <section class="product-detail">
+            <img src="images/Friends.jpg" alt="Friends"> 
+            <h2>Friends</h2>
+            <p><strong>Кратко описание:</strong> Група приятели живеещи в Ню Йорк навигират животи изпълнени със смях, страст и кавги. В този ситком ще намерите едни от най-любимите си герои и Рос също е там.</p>
+            <p><strong>Пълно описание:</strong> „Friends“ е американски ситком, създаден от Дейвид Крейн и Марта Кауфман, 
+                излъчен по Ен Би Си от 22 септември 1994 г. до 6 май 2004 г. с продължителност от десет сезона.
+                 С ансамбъл от актьорския състав с участието на Дженифър Анистън, Кортни Кокс, Лиса Кудроу, Мат Лебланк, Матю Пери и Дейвид Шуимър, 
+                 сериалът проследява живота на група шестима приятели през 20-те и 30-те си години, които живеят в Манхатън, Ню Йорк.</p>
+            <p><strong>Цена:</strong> 110 лв.</p>
+
+            <section class="purchase-form">
+                <h3>Закупи продукта</h3>
+                <form>
+                    <label for="name">Име:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="address">Адрес:</label><br>
+                    <input type="text" id="address" name="address"><br>
+                    <button type="submit">Изпрати</button>
+                </form>
+            </section>
+
+            <section class="reviews">
+                <div class="reviews">
+                <h2>Потребителски ревюта</h2>
+                    <div id="review-list">
+                        <div class="review">Аз просто не харесвам Рос.</div>
+                    </div>
+
+                    <form id="review-form">
+                        <label for="review-text">Добави ревю:</label>
+                            <textarea id="review-text" required></textarea>
+                             <button type="submit">Изпрати</button>
+                    </form>
+                    </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Статичен Магазин</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sopranos – Статичен Магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <header>
+        <h1>The Sopranos</h1>
+        <nav><a href="index.html">Обратно към магазина</a></nav>
+    </header>
+    <main>
+        <section class="product-detail">
+            <img src="images/The Sopranos.jpg" alt="The Sopranos"> 
+            <h2>The Sopranos</h2>
+            <p><strong>Кратко описание:</strong> Мафиот, мъчещ се да балансира семейния и криминалния си живот, претърпява паник атака и сега посещава психиатър.</p>
+            <p><strong>Пълно описание:</strong> „The Sopranos“ е американски криминален сериал, създаден от сценариста Дейвид Чейс.
+                 Той се излъчва по телевизия HBO от 10 януари 1999 г. до 10 юни 2007 г.,
+                  като за този период печели 21 награди Еми и 5 награди Златен глобус. 
+                  Продукцията има общо 6 сезона и 86 епизода, заснети основно в Ню Джърси, САЩ. 
+                  Главните роли се изпълняват от актьорите Джеймс Гандолфини, Лорейн Брако, Иди Фалко, Майкъл Империоли и други.</p>
+            <p><strong>Цена:</strong> 110 лв.</p>
+
+            <section class="purchase-form">
+                <h3>Закупи продукта</h3>
+                <form>
+                    <label for="name">Име:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="address">Адрес:</label><br>
+                    <input type="text" id="address" name="address"><br>
+                    <button type="submit">Изпрати</button>
+                </form>
+            </section>
+
+            <section class="reviews">
+                <div class="reviews">
+                <h2>Потребителски ревюта</h2>
+                    <div id="review-list">
+                        <div class="review">Тооони!</div>
+                        <div class="review">Единствената награда, която не е получила е Тони.</div>
+                    </div>
+
+                    <form id="review-form">
+                        <label for="review-text">Добави ревю:</label>
+                            <textarea id="review-text" required></textarea>
+                             <button type="submit">Изпрати</button>
+                    </form>
+                    </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Статичен Магазин</p>
+    </footer>
+</body>
+</html>

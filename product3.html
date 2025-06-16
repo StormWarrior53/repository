@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dexter – Статичен Магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <header>
+        <h1>Dexter</h1>
+        <nav><a href="index.html">Обратно към магазина</a></nav>
+    </header>
+    <main>
+        <section class="product-detail">
+            <img src="images/Dexter.jpg" alt="Dexter"> 
+            <h2>Dexter</h2>
+            <p><strong>Кратко описание:</strong> Декстър Морган е съдебен медик през деня и сериен убиец на серийни убийци през нощта.</p>
+            <p><strong>Пълно описание:</strong> „Dexter“ е американски криминален сериал, излъчен между 2006 г. и 2013 г. по Шоутайм. 
+                Майкъл Хол играе ролята на специалиста по съдебна медицина Декстър Морган към полицейското управление на Маями, 
+                който живее тайно като сериен убиец. Сценарият на първия сезон се базира бегло на романа „Нощният ловец“ от Джеф Линдзи,
+                 а следващите сезони доразвиват сценария самостоятелно.</p>
+            <p><strong>Цена:</strong> 110 лв.</p>
+
+            <section class="purchase-form">
+                <h3>Закупи продукта</h3>
+                <form>
+                    <label for="name">Име:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="address">Адрес:</label><br>
+                    <input type="text" id="address" name="address"><br>
+                    <button type="submit">Изпрати</button>
+                </form>
+            </section>
+
+            <section class="reviews">
+                <div class="reviews">
+                <h2>Потребителски ревюта</h2>
+                    <div id="review-list">
+                        <div class="review">Чудесно шоу, невероятни герои, перфектно геройско развитие, особено Дебора Морган. Любимият ми сезон е четвъртият.</div>
+                        <div class="review">Sexter Morgan</div> 
+                        <div class="review">Не знаех че мога да имам толкова общо с психопат. Може би ми трябва терапия...</div>
+                    </div>
+
+                    <form id="review-form">
+                        <label for="review-text">Добави ревю:</label>
+                            <textarea id="review-text" required></textarea>
+                             <button type="submit">Изпрати</button>
+                    </form>
+                    </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Статичен Магазин</p>
+    </footer>
+</body>
+</html>
